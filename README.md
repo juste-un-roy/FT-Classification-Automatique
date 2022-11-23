@@ -1,5 +1,5 @@
-# Algorithme de classification automatique d'articles de synthèse
-Voici un algorithme capable de procéder à la classification automatique d'articles de synthèse (_review articles_) par type de synthèse. Programmé dans le langage _Python_, il procède en recherchant une liste d'expressions régulières - ou « _regex_ » - dans la notice d'un article. La présence de l'une d'entre elles dans une notice est ce qui indique à l'intelligence artificielle dans quelle catégorie ranger l'article associé.
+# Algorithme de classification automatique de revues de la littérature
+Voici un algorithme capable de procéder à la classification automatique de revues de la littérature (_review articles_) par type de synthèse. Programmé dans le langage _Python_, il procède en recherchant une liste d'expressions régulières dans la notice d'un article. L'occurrence et la fréquence d'une expression régulière dans la notice de l'article indiquent sa catégorie.
 
 Les contextes pour lesquels notre méthodologie suffit sont rares. Pour classer automatiquement un corpus à partir de critères plus complexes, nous déconseillons de recourir à la recherche d'expressions régulières.
 
